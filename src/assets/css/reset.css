@@ -1,0 +1,44 @@
+*{
+  touch-action: none;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+}
+
+input { 
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 公共布局样式 */
+.row{display: flex; flex-direction: row;}
+.col{display: flex; flex-direction: column;}
+
+.j-c{justify-content: center;}
+.j-b{justify-content: space-between;}
+.j-a{justify-content: space-around;}
+.j-e{justify-content: flex-end;}
+
+.a-c{align-items: center}
+.f-w{flex-wrap: wrap;}
+.t-c{text-align: center;}
+
+.fl{float: left;}
+.fr{float: right;}
